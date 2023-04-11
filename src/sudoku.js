@@ -3,10 +3,10 @@ export function Sudoku() {
   this.columns = {};
 }
 
-Sudoku.prototype.addRow = function () {
-  return 'hello';
+Sudoku.prototype.addRow = function (row) {
+  this.rows = row;
 };
 
-export function Line() {
+export function Line(location) {
   this.locations = location;
 }
